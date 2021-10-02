@@ -27,7 +27,7 @@ st.markdown('''<center><h1><b>Calco</b></center></h1>''', unsafe_allow_html=True
 st.markdown(landing, unsafe_allow_html=True)
 ch = st.selectbox(" ",["Warmup","Stats","Predict"])
 if ch == "Warmup":
-    st.markdown("""<center><img src="https://user-images.githubusercontent.com/44704352/135707544-0c86eec6-9264-41d9-854a-30005c3f45b9.gif", alt="workout-1", width=80%></center>""", unsafe_allow_html=True)
+    st.markdown("""<center><img src="https://user-images.githubusercontent.com/44704352/135709528-f3b677c3-593c-43ee-bf59-5a1ad1bfe6ac.gif", alt="workout-1", width=80%></center>""", unsafe_allow_html=True)
 
 elif ch == "Stats":
     st.markdown(stats, unsafe_allow_html=True)
