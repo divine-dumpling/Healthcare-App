@@ -19,7 +19,7 @@ from sklearn.preprocessing import PolynomialFeatures
 
 loaded_model_l = pickle.load(open('linear_model.sav', 'rb'))
 
-landing = """<center><h2>Select your Choice</h2></center><center><h3>Warmup / Stats / Predict</h3></center>""" 
+landing = """<center><h2>Select your Choice</h2></center><center><h3>Warmup ⚪ Stats ⚪ Predict</h3></center>""" 
 
 stats = """<center><h3><b><u>Statistics during Training the model</u></b></h3></center>"""
 
