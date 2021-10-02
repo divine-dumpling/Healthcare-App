@@ -23,15 +23,8 @@ landing = """<center><h2>Select your Choice</h2></center><center><h3>Warmup ⚪ 
 
 stats = """<center><h3><b><u>Statistics during Training the model</u></b></h3></center>"""
 
-st.markdown("""
-<style>
-body {
-  background: #ff0099; 
-  background: -webkit-linear-gradient(to right, #ff0099, #493240); 
-  background: linear-gradient(to right, #ff0099, #493240); 
-}
-</style>
-    """, unsafe_allow_html=True)
+st.markdown("<span style=“background-color:#121922”>",unsafe_allow_html=True)
+
 st.markdown('''<center><h1><b>Calco</b></center></h1>''', unsafe_allow_html=True)
 st.markdown(landing, unsafe_allow_html=True)
 ch = st.selectbox(" ",["Warmup","Stats","Predict"])
