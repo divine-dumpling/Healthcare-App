@@ -27,7 +27,7 @@ st.markdown('''<center><h1><b>Calco</b></center></h1>''', unsafe_allow_html=True
 st.markdown(landing, unsafe_allow_html=True)
 ch = st.selectbox(" ",["Warmup","Stats","Predict"])
 if ch == "Warmup":
-    st.markdown("""<center><img src="https://i0.wp.com/clipartmag.com/images/animated-exercise-26.gif.gif", alt="workout-1", width=80%></center>""", unsafe_allow_html=True)
+    st.markdown("""<center><img src="https://user-images.githubusercontent.com/44704352/135707544-0c86eec6-9264-41d9-854a-30005c3f45b9.gif", alt="workout-1", width=80%></center>""", unsafe_allow_html=True)
     st.markdown("""<center><img src="https://cdn.dribbble.com/users/722563/screenshots/2925934/dribble_2.gif", alt="workout-2", width=80%></center>""", unsafe_allow_html=True)
     st.markdown("""<center><img src="https://cdn.dribbble.com/users/722563/screenshots/2923920/dribble_1.gif", alt="workout-3", width=80%></center>""", unsafe_allow_html=True)
     st.markdown("""<center>src <a href="https://dribbble.com/shots/2928065-Fitness-App-Animation-gif", target="_blank"/>1 <a href="https://dribbble.com/shots/2925934-Fitness-App-Animation-gif", target="_blank"/>2 <a href="https://dribbble.com/shots/2923920-Fitness-App-Animation", target="_blank"/>3 </center>""", unsafe_allow_html=True)
